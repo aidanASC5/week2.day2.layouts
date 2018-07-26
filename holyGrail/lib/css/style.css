@@ -27,17 +27,33 @@ nav a:hover{
 
 /* PUT YOUR CSS HERE */
 .main_container{
+    font-family: color green;
+    display:flex;
+    height: 100vh;
+    flex-direction: column;
 
 }
 
 .main_content_container{
-
-}
-
-.main_content{
-
+    display: flex;
+    overflow-y: scroll;
+    flex:1
 }
 
 .flex_padding{
-
+    width:20%;
+    background:pink;
+    height:100vh;
+    }
+    
+.main_content{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    overflow-y: scroll;
+   
 }
+
+
+
+
